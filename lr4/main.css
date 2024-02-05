@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Ubuntu;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+header,
+.services-section,
+.services-info,
+footer {
+    padding-left: 345px;
+    padding-right: 345px;
+    display: flex;
+}
+
+header {
+    padding: 20px 345px 22px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.header-contacts-wrapper {
+    display: flex;
+    width: 210px;
+}
+
+.header-nav-wrapper {
+    display: flex;
+    width: 447px;
+    justify-content: space-between;
+    margin: 0 172px 0 60px;
+}
+
+.header-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(66, 69, 81, 1);
+}
+
+.header-link-active {
+    color: rgba(255, 90, 48, 1)
+}
+
+.services-section {
+    background-image: url(assets/background-section1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.services-section-nav{
+    margin: 58px 0 40px;
+}
+.services-section-link {
+    font-size: 14px;
+    color: rgba(66, 69, 81, 1);
+}
+
+.services-section-link.active, .services-section-nav span {
+    color: rgba(154, 156, 165, 1);
+}
+
+.services-section h1 {
+    font-size: 72px;
+    margin-bottom: 24px;
+}
+
+.services-section p {
+    width: 600px;
+    margin-bottom: 179px;
+}
+
+.services-info, .header-contacts-wrapper div {
+    flex-direction: column;
+}
+
+.header-contacts-wrapper div :first-child {
+    font-size: 14px;
+}
+
+.header-contacts-wrapper div :last-child {
+    font-size: 18px;
+}
+
+.services-block-title {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.services-block img {
+    width: 575px;
+    height: 420px;
+    border-radius: 4px;
+}
+
+.services-block {
+    display: flex;
+}
+
+.footer-contacts-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    color: white;
+    background-color: rgba(30, 33, 44, 1);
+    flex-direction: column;
+}
